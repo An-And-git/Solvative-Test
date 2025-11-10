@@ -8,6 +8,249 @@ body {
     background-color: #F3F3E9;
 }
 
+/* Welcome Page Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.info-text {
+    margin-bottom: 2rem;
+    background-color: #D9D9D94D;
+}
+
+.info-text .lead {
+    color: #000;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-category label {
+    color: #333;
+    font-weight: 500;
+    display: block;
+}
+
+.form-control {
+    border: 1px solid #e0e0e0;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: inherit;
+}
+
+.form-control:focus {
+    border-color: #d84293;
+    box-shadow: 0 0 0 0.2rem rgba(216,66,147,0.25);
+}
+
+/* Validation styles */
+.form-control.is-invalid {
+    border-color: #d84293;
+    box-shadow: 0 0 0 0.15rem rgba(216,66,147,0.12);
+}
+.form-category.has-error .form-check {
+    border-color: #d84293;
+}
+.form-category.has-error label {
+    color: #d84293;
+}
+
+.options-container + #option-error {
+    margin-top: 0.25rem;
+}
+
+.form-check {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-check:has(.form-check-input:checked) {
+    border-color: #d84293;
+}
+
+.form-check:hover {
+    background-color: #f8f9fa;
+}
+
+.form-check-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form-check-label {
+    padding-left: 2.5rem;
+    color: #333;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    user-select: none;
+}
+
+.form-check-label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    background-color: #F3F3E9;
+    transition: all 0.3s ease;
+}
+
+.form-check-input:checked + .form-check-label::before {
+    background-color: #d84293;
+    border-color: #d84293;
+}
+
+.form-check-label::after {
+    content: "\F26E";
+    font-family: "bootstrap-icons";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #F3F3E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.form-check-input:checked + .form-check-label::after {
+    opacity: 1;
+}
+
+.btn-primary {
+    background-color: #d84293;
+    border-color: #d84293;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus {
+    background-color: #c13a82;
+    border-color: #c13a82;
+}
+
+@media (min-width: 768px) {
+    .btn-primary {
+        width: auto;
+    }
+}
+header .btn.btn-outline-primary{
+    border-color: #c13a82;
+    color: #c13a82;
+
+}
+header .btn.btn-outline-primary:hover{
+    background-color: #c13a82;
+    color: #fff;
+}
+.home-form.form-category .label-home {
+    color: #333;
+    font-weight: 500;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+/* Quiz Rules Modal Styles */
+.modal-content {
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.modal-header .btn-close {
+    background-color: #f8f9fa;
+    opacity: 1;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-body h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.modal-body h4:first-child {
+    margin-top: 0;
+}
+
+.modal-body ul {
+    list-style-type: none;
+    padding-left: 16px;
+    margin-bottom: 0;
+}
+
+.modal-body ul li {
+    position: relative;
+    padding: 4px 0;
+    color: #666;
+}
+
+.modal-body ul li::before {
+    content: "•";
+    position: absolute;
+    left: -15px;
+    color: #d84293;
+}
+
+.modal-body ul li ul {
+    margin-top: 8px;
+}
+
+/* Quiz Rules Link Style */
+a[data-bs-toggle="modal"] {
+    color: #d84293;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a[data-bs-toggle="modal"]:hover {
+    text-decoration: underline;
+}
+
 /* Common Result Page Styles */
 .result-icon {
     width: 64px;
@@ -122,4 +365,56 @@ body {
 
 .average .score-value {
     color: #ffa726;
+}
+
+/* Quiz Specific Styles */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.question-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.5;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    height: 4px !important;
+}
+
+.progress-bar {
+    background-color: #d84293 !important;
+    transition: width 0.3s ease;
+}
+
+.options-container .form-check {
+    margin-bottom: 1rem;
+}
+
+.options-container .form-check.correct {
+    border-color: #00c853;
+    background-color: rgba(0, 200, 83, 0.1);
+}
+
+.options-container .form-check.incorrect {
+    border-color: #d84293;
+    background-color: rgba(216, 66, 147, 0.1);
+}
+
+.options-container .form-check-input:disabled {
+    cursor: not-allowed;
+}
+
+.timer {
+    font-weight: 600;
+    color: #d84293;
+}
+
+.question-counter {
+    font-weight: 500;
+    color: #666;
 }

@@ -23,7 +23,7 @@
     <!--Header Section-->
     <header class="py-4 border-bottom">
         <div class="container">
-            <a href="#"><img src="assets/logo.svg" alt="Quiz Mania Logo"></a>
+            <a href="index.html"><img src="assets/logo.svg" alt="Quiz Mania Logo"></a>
         </div>
     </header>
 
@@ -64,15 +64,27 @@
                     </div>
                 </div>
 
-                <!-- Retake Button -->
-                <button class="retake-btn">Retake Quiz</button>
+                <!-- Navigation Buttons -->
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="index.html" class="btn btn-outline-primary px-4">Back to Home</a>
+                </div>
             </div>
         </div>
     </main>
 
     <!--Bootstrap JS V5.0-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Custom JS -->
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const results = JSON.parse(sessionStorage.getItem('quizResults'));
+        if (results) {
+            // Update the score and statistics in the UI
+            document.querySelector('.score-value').textContent = results.score + '%';
+            document.querySelector('.stats-container .correct strong').textContent = results.correctAnswers;
+            document.querySelector('.stats-container .incorrect strong').textContent = results.incorrectAnswers;
+            document.querySelector('.stats-container .not-answered strong').textContent = results.unanswered;
+        }
+    });
+    </script>
 </body>
 </html>
