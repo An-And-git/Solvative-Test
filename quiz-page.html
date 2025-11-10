@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solvative Test - Quiz</title>
+
+    <!-- Font family - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--Bootstrap CSS V5.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Fontawesome V7.0.1-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!--Header Section-->
+    <header class="py-4 border-bottom">
+        <div class="container">
+            <a href="#"><img src="assets/logo.svg" alt="Quiz Mania Logo"></a>
+            <button class="btn btn-primary float-end">Exit Quiz</button>
+        </div>
+    </header>
+    <!--Main Content Section-->
+    <main class="py-4">
+        <div class="container">
+            <div class="quiz-container">
+                <!-- Quiz Header with Counter and Timer -->
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="question-counter fs-5">1/10</div>
+                    <div class="timer fs-5">0:09</div>
+                </div>
+                
+                <!-- Progress Bar -->
+                <div class="progress mb-4" style="height: 4px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+
+                <!-- Question Section -->
+                <div class="question-section">
+                    <h2 class="question-text mb-4">Which method can be used to round a number to the nearest integer in JavaScript?</h2>
+                    
+                    <!-- Options -->
+                    <div class="options-container">
+                        <div class="form-check mb-3 p-3 border rounded">
+                            <input class="form-check-input" type="radio" name="quizOption" id="option1">
+                            <label class="form-check-label w-100" for="option1">
+                                This method rounds a number up to the nearest integer, regardless of its decimal part.
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3 p-3 border rounded">
+                            <input class="form-check-input" type="radio" name="quizOption" id="option2">
+                            <label class="form-check-label w-100" for="option2">
+                                This method rounds a number down to the nearest integer, ignoring the decimal part.
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3 p-3 border rounded">
+                            <input class="form-check-input" type="radio" name="quizOption" id="option3">
+                            <label class="form-check-label w-100" for="option3">
+                                This method rounds a number to the nearest integer based on its decimal value.
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-3 p-3 border rounded">
+                            <input class="form-check-input" type="radio" name="quizOption" id="option4">
+                            <label class="form-check-label w-100" for="option4">
+                                This method generates a random number between 0 and 1 without rounding.
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="d-flex justify-content-between align-items-center mt-4">
+                        <button class="btn btn-primary px-4">Next</button>
+                        <button class="btn btn-link text-secondary">Skip this question</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Bootstrap JS V5.0-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

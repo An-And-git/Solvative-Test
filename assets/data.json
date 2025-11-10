@@ -1,0 +1,384 @@
+{
+  "categories": [
+    {
+      "name": "Animals",
+      "questions": [
+        {
+        "question": "Hippocampus is the Latin name for which marine creature?",
+        "correct_answer": "Seahorse",
+        "incorrect_answers": [
+            "Dolphin",
+            "Whale",
+            "Octopus"
+        ]
+        },
+        {
+        "question": "What is the fastest  land animal?",
+        "correct_answer": "Cheetah",
+        "incorrect_answers": [
+            "Lion",
+            "Thomson&rsquo;s Gazelle",
+            "Pronghorn Antelope"
+        ]
+        },
+        {
+        "question": "What is the scientific name for modern day humans?",
+        "correct_answer": "Homo Sapiens",
+        "incorrect_answers": [
+            "Homo Ergaster",
+            "Homo Erectus",
+            "Homo Neanderthalensis"
+        ]
+        },
+        {
+        "question": "What do you call a baby bat?",
+        "correct_answer": "Pup",
+        "incorrect_answers": [
+            "Cub",
+            "Chick",
+            "Kid"
+        ]
+        },
+        {
+        "question": "What colour is the female blackbird?",
+        "correct_answer": "Brown",
+        "incorrect_answers": [
+            "Black",
+            "White",
+            "Yellow"
+        ]
+        },
+        {
+        "question": "What is the name of a rabbit&#039;s abode?",
+        "correct_answer": "Burrow",
+        "incorrect_answers": [
+            "Nest",
+            "Den",
+            "Dray"
+        ]
+        },
+        {
+        "question": "How many legs do butterflies have?",
+        "correct_answer": "6",
+        "incorrect_answers": [
+            "2",
+            "4",
+            "0"
+        ]
+        },
+        {
+        "question": "How many teeth does an adult rabbit have?",
+        "correct_answer": "28",
+        "incorrect_answers": [
+            "30",
+            "26",
+            "24"
+        ]
+        },
+        {
+        "question": "What is Grumpy Cat&#039;s real name?",
+        "correct_answer": "Tardar Sauce",
+        "incorrect_answers": [
+            "Sauce",
+            "Minnie",
+            "Broccoli"
+        ]
+        },
+        {
+        "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+        "correct_answer": "Capture scent particles",
+        "incorrect_answers": [
+            "Taste the sweet air",
+            "Threaten other species",
+            "Attract female mates"
+        ]
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        {
+          "question": "Which sport is known as 'The Beautiful Game'?",
+          "correct_answer": "Football",
+          "incorrect_answers": [
+            "Cricket",
+            "Rugby",
+            "Basketball"
+          ]
+        },
+        {
+          "question": "How many players are there in a standard volleyball team?",
+          "correct_answer": "6",
+          "incorrect_answers": [
+            "5",
+            "7",
+            "8"
+          ]
+        },
+        {
+          "question": "In which sport would you perform a slam dunk?",
+          "correct_answer": "Basketball",
+          "incorrect_answers": [
+            "Tennis",
+            "Football",
+            "Hockey"
+          ]
+        },
+        {
+          "question": "Which country won the FIFA World Cup 2022?",
+          "correct_answer": "Argentina",
+          "incorrect_answers": [
+            "France",
+            "Brazil",
+            "Germany"
+          ]
+        },
+        {
+          "question": "In which sport would you use a shuttlecock?",
+          "correct_answer": "Badminton",
+          "incorrect_answers": [
+            "Table Tennis",
+            "Tennis",
+            "Squash"
+          ]
+        },
+        {
+          "question": "How many points is a touchdown worth in American Football?",
+          "correct_answer": "6",
+          "incorrect_answers": [
+            "4",
+            "5",
+            "7"
+          ]
+        },
+        {
+          "question": "What is the diameter of a basketball hoop in inches?",
+          "correct_answer": "18",
+          "incorrect_answers": [
+            "16",
+            "20",
+            "22"
+          ]
+        },
+        {
+          "question": "Which tennis player has won the most Grand Slam titles?",
+          "correct_answer": "Novak Djokovic",
+          "incorrect_answers": [
+            "Rafael Nadal",
+            "Roger Federer",
+            "Pete Sampras"
+          ]
+        },
+        {
+          "question": "What is the maximum number of clubs allowed in a golf bag during a round?",
+          "correct_answer": "14",
+          "incorrect_answers": [
+            "12",
+            "16",
+            "18"
+          ]
+        },
+        {
+          "question": "In which Olympic sport would you perform a Tsukahara?",
+          "correct_answer": "Gymnastics",
+          "incorrect_answers": [
+            "Diving",
+            "Figure Skating",
+            "Swimming"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vehicles",
+      "questions": [
+        {
+          "question": "What car manufacturer produces the 911?",
+          "correct_answer": "Porsche",
+          "incorrect_answers": [
+            "BMW",
+            "Ferrari",
+            "Audi"
+          ]
+        },
+        {
+          "question": "Which company developed the first mass-produced hybrid car?",
+          "correct_answer": "Toyota",
+          "incorrect_answers": [
+            "Honda",
+            "Ford",
+            "Chevrolet"
+          ]
+        },
+        {
+          "question": "What is the main function of a carburetor in a car?",
+          "correct_answer": "Mix air and fuel",
+          "incorrect_answers": [
+            "Cool the engine",
+            "Filter oil",
+            "Reduce emissions"
+          ]
+        },
+        {
+          "question": "Which car company owns Bugatti?",
+          "correct_answer": "Volkswagen",
+          "incorrect_answers": [
+            "BMW",
+            "Mercedes-Benz",
+            "Ferrari"
+          ]
+        },
+        {
+          "question": "What does SUV stand for?",
+          "correct_answer": "Sport Utility Vehicle",
+          "incorrect_answers": [
+            "Sports Urban Vehicle",
+            "Standard Utility Van",
+            "Super Urban Vehicle"
+          ]
+        },
+        {
+          "question": "In which country was Tesla founded?",
+          "correct_answer": "United States",
+          "incorrect_answers": [
+            "Germany",
+            "Japan",
+            "Sweden"
+          ]
+        },
+        {
+          "question": "What is the purpose of a vehicle's alternator?",
+          "correct_answer": "Charge the battery",
+          "incorrect_answers": [
+            "Power the radio",
+            "Control the AC",
+            "Operate windows"
+          ]
+        },
+        {
+          "question": "Which motorcycle manufacturer produces the Ninja series?",
+          "correct_answer": "Kawasaki",
+          "incorrect_answers": [
+            "Honda",
+            "Yamaha",
+            "Suzuki"
+          ]
+        },
+        {
+          "question": "What type of engine is most commonly used in modern helicopters?",
+          "correct_answer": "Turboshaft",
+          "incorrect_answers": [
+            "Turbojet",
+            "Piston",
+            "Electric"
+          ]
+        },
+        {
+          "question": "What is the name of the world's largest cargo aircraft?",
+          "correct_answer": "Antonov An-225",
+          "incorrect_answers": [
+            "Boeing 747",
+            "Airbus A380",
+            "Lockheed C-5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Art",
+      "questions": [
+        {
+          "question": "Who painted 'The Starry Night'?",
+          "correct_answer": "Vincent van Gogh",
+          "incorrect_answers": [
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Claude Monet"
+          ]
+        },
+        {
+          "question": "Which art movement is Salvador Dalí associated with?",
+          "correct_answer": "Surrealism",
+          "incorrect_answers": [
+            "Impressionism",
+            "Cubism",
+            "Pop Art"
+          ]
+        },
+        {
+          "question": "What is the primary color that cannot be created by mixing other colors?",
+          "correct_answer": "Blue",
+          "incorrect_answers": [
+            "Green",
+            "Purple",
+            "Orange"
+          ]
+        },
+        {
+          "question": "Who painted the Mona Lisa?",
+          "correct_answer": "Leonardo da Vinci",
+          "incorrect_answers": [
+            "Michelangelo",
+            "Raphael",
+            "Sandro Botticelli"
+          ]
+        },
+        {
+          "question": "Which famous Spanish artist is known for co-founding Cubism?",
+          "correct_answer": "Pablo Picasso",
+          "incorrect_answers": [
+            "Salvador Dalí",
+            "Francisco Goya",
+            "Diego Velázquez"
+          ]
+        },
+        {
+          "question": "What ancient civilization is known for creating the Great Sphinx?",
+          "correct_answer": "Ancient Egyptians",
+          "incorrect_answers": [
+            "Ancient Greeks",
+            "Romans",
+            "Mesopotamians"
+          ]
+        },
+        {
+          "question": "Which medium is used in fresco painting?",
+          "correct_answer": "Water-based pigments",
+          "incorrect_answers": [
+            "Oil paints",
+            "Acrylic",
+            "Tempera"
+          ]
+        },
+        {
+          "question": "Who created 'The Persistence of Memory' with its melting clocks?",
+          "correct_answer": "Salvador Dalí",
+          "incorrect_answers": [
+            "René Magritte",
+            "Joan Miró",
+            "Max Ernst"
+          ]
+        },
+        {
+          "question": "Which Renaissance artist sculpted 'David'?",
+          "correct_answer": "Michelangelo",
+          "incorrect_answers": [
+            "Donatello",
+            "Leonardo da Vinci",
+            "Raphael"
+          ]
+        },
+        {
+          "question": "What style of art is Andy Warhol known for?",
+          "correct_answer": "Pop Art",
+          "incorrect_answers": [
+            "Abstract Expressionism",
+            "Minimalism",
+            "Art Nouveau"
+          ]
+        }
+      ]
+    }
+  ]
+}

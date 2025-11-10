@@ -1,8 +1,125 @@
-body{
+body {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     margin: 0;
     padding: 0;
+    background-color: #F3F3E9;
+}
+
+/* Common Result Page Styles */
+.result-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.result-icon i {
+    font-size: 32px;
+}
+
+.result-text {
+    letter-spacing: 4px;
+    color: #333;
+    font-weight: 500;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.score-value {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.result-summary {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.stats-item.correct {
+    color: #00c853;
+}
+
+.stats-item.incorrect {
+    color: #d84293;
+}
+
+.stats-item.not-answered {
+    color: #757575;
+}
+
+.retake-btn {
+    border: 2px solid #d84293;
+    color: #d84293;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.retake-btn:hover {
+    background-color: #d84293;
+    color: white;
+}
+
+/* Success Page Specific */
+.success .result-icon {
+    background-color: #e8f5e9;
+}
+
+.success .result-icon i {
+    color: #00c853;
+}
+
+.success .score-value {
+    color: #00c853;
+}
+
+/* Poor Page Specific */
+.poor .result-icon {
+    background-color: #ffebee;
+}
+
+.poor .result-icon i {
+    color: #d84293;
+}
+
+.poor .score-value {
+    color: #ffd700;
+}
+
+/* Average Page Specific */
+.average .result-icon {
+    background-color: #fff3e0;
+}
+
+.average .result-icon i {
+    color: #ffa726;
+}
+
+.average .score-value {
+    color: #ffa726;
 }
